@@ -55,8 +55,8 @@
             this.matriculaTextBox = new System.Windows.Forms.TextBox();
             this.marcaTextBox = new System.Windows.Forms.TextBox();
             this.crystalReportViewer1 = new CrystalDecisions.Windows.Forms.CrystalReportViewer();
-            this.CrystalReport21 = new ConexionMYSQLOrigenesDeDatos.CrystalReport2();
             this.CrystalReport22 = new ConexionMYSQLOrigenesDeDatos.CrystalReport2();
+            this.CrystalReport21 = new ConexionMYSQLOrigenesDeDatos.CrystalReport2();
             matriculaLabel = new System.Windows.Forms.Label();
             marcaLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.cocheDataSet)).BeginInit();
@@ -159,6 +159,7 @@
             this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
             this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
             this.bindingNavigatorDeleteItem.Text = "Eliminar";
+            this.bindingNavigatorDeleteItem.Click += new System.EventHandler(this.bindingNavigatorDeleteItem_Click);
             // 
             // bindingNavigatorMoveFirstItem
             // 

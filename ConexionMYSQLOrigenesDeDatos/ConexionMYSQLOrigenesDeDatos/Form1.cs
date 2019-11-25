@@ -91,5 +91,10 @@ namespace ConexionMYSQLOrigenesDeDatos
         {
 
         }
+
+        private void bindingNavigatorDeleteItem_Click(object sender, EventArgs e)
+        {
+            dataReportLoad();
+        }
     }
 }
